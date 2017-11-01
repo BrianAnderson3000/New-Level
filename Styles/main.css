@@ -1,0 +1,98 @@
+
+
+header {
+  border-bottom: .5px solid grey;
+}
+#iframe {
+width:542px;
+height:300px;
+text-align: left;
+
+}
+#name {
+  border-bottom: .5px solid black;
+ text-align: left;
+  padding-bottom:12px;
+}
+
+#moon {
+float: right;
+
+}
+
+
+#title {
+  color:black;
+}
+
+
+
+#item {
+  display: inline-flex;
+
+}
+
+nav {
+  font-size: 16px;
+}
+
+
+
+
+img {
+  border-radius: 5px;
+  max-width:100%;
+  height:auto;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: .5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+}
+
+@media (min-width: 1021) {
+#moon {
+  margin-left: 50px;
+}
+
+}
+    @media (max-width:1020px){
+      #moon {
+        float: none;}
+}
+
+@media (max-width:601px){
+  #item {
+    flex-direction: column;
+
+  }
+body {
+  text-align: center;
+}
+
+#iframe {
+  width:300px;
+  height:300px;
+  text-align: center;
+}
+
+#itemwrapper {
+  flex-direction: column;
+  text-align: center;
+}
+
+#name {
+  text-align: center;
+}
+
+#moon {
+  margin-bottom: 7px;
+}
+
+
+
+}
